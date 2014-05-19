@@ -1,1 +1,17 @@
-Hello World!
+Matlab code to run the cellular automaton described in:
+
+Smallbone K, Gatenby RA, Gillies RJ, Maini PK, Gavaghan DJ (2007) 
+"Metabolic changes during carcinogenesis: potential impact on invasiveness" 
+J Theor Biol. 244:703-713
+http://dx.doi.org/10.1016/j.jtbi.2006.09.010
+
+You can run a simulation (at default parameters) through
+> [C,g,c,h,p,m1,m2,m3] = kCA;
+
+The state of the automaton at generation 100 can then be visualised by
+> kCAFigPlotter(C,m1,m2,m3,100);
+
+Innumerable thanks to Ornella Cominetti for saving this code, which
+would otherwise have been lost in the ether.
+
+Last updated: 19 May 14
